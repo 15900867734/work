@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 
+		sass  less    css预处理器
+
+
+
+		sass里面有2种语法  第一种语法是sass  后缀名必须是sass   第二种语法是scss  后缀名必须是scss
+
+			//scss写法
+			$width:300px;
+			$height:400px;
+
+			body{
+			     width:$width;
+			     height:$height;
+			}
+
+
+			//sass写法
+			$with:100px;
+			$height:100px;
+
+			body
+			     width:$width
+
+
+
+
+
+
+
+
+
+
+
+		sass的基本语法
+			1、定义变量 必须要用$
+			2、变量拼接  #{变量}
+			3、sass监听   sass --watch 文件名称:文件名称
+			4、文件编译非风格
+				* nested：嵌套缩进的css代码，它是默认值。
+
+			　　* expanded：没有缩进的、扩展的css代码。
+
+			　　* compact：简洁格式的css代码。
+
+			　　* compressed：压缩后的css代码。
+			
+				sass --watch --style compact  文件名:文件名
+
+			5、sass里面的语法支持运算
+
+			6、sass语法支持嵌套形式    但是最好不要超过3层
+				
+
+			7、&代表父级
+
+			8、继承  @extend
+
+			9、混合宏   当需要写一些重复的代码的时候 我们可以把代码放在混合宏中
+
+			如何定义混合宏  @mixin 变量名(){}
+			如何调用混合宏  @include  变量名
+
+
+			10、引入公共文件  @import  文件的名称  不需要加_
+				在建立文件的时候  _文件名称
+			
+			11、注释
+				单行注释 //
+				多行注释 /*  */
+
+				不能用中文
+
+								1        10    10
+			12、@for 变量 from 值 through 值
+								1    10    9
+				@for 变量 from 值 to 值
+
+
+			13、@if
+
+			14、@function
+
+			15、如果sass里面涉及到了运算的时候  - 两边一定要加空格
+
+
+
+
+
+
+
+					
+	 -->
+</body>
+</html>
