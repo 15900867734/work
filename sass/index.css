@@ -264,4 +264,170 @@
         color: #e23435;
         border-bottom-color: #e23435; }
 
-/*# sourceMappingURL=base.css.map */
+.banner {
+  width: 100%;
+  height: 434px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto; }
+  .banner ul {
+    position: absolute; }
+    .banner ul li {
+      float: left;
+      width: 1349px;
+      position: relative;
+      min-width: 1224px;
+      height: 434px; }
+      .banner ul li:nth-child(1) {
+        background: #f01f49; }
+      .banner ul li:nth-child(2) {
+        background: #a8e7ce; }
+      .banner ul li:nth-child(3) {
+        background: #f9f8f4; }
+      .banner ul li:nth-child(4) {
+        background: #b6dbc9; }
+      .banner ul li a {
+        height: 100%;
+        margin-left: -422px;
+        width: 824px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        overflow: hidden; }
+        .banner ul li a img {
+          width: 100%;
+          height: 100%; }
+  .banner .direction a {
+    display: block;
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    top: 45%;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2) url("../images/banner/ico-arrow-banner.png") no-repeat;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px; }
+    .banner .direction a:nth-child(2) {
+      right: 290px;
+      background-position: -42px 0; }
+    .banner .direction a:nth-child(1) {
+      left: 270px;
+      background-position: -2px 0; }
+  .banner .btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%; }
+    .banner .btn a {
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      margin-left: 2px;
+      border: 1px solid #fff;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+      .banner .btn a.active {
+        background-color: #fff; }
+  .banner .banner-right {
+    padding-top: 0;
+    background: #ebebeb;
+    height: 434px;
+    margin-left: 402px;
+    width: 210px;
+    position: absolute;
+    top: 0;
+    left: 50%; }
+    .banner .banner-right .banner-right-top {
+      padding: 10px 5px 0 5px; }
+      .banner .banner-right .banner-right-top a {
+        display: block;
+        float: left; }
+        .banner .banner-right .banner-right-top a p {
+          z-index: 9;
+          width: 80px;
+          height: 26px;
+          line-height: 26px;
+          background-color: #e01028;
+          color: #fff;
+          text-align: center;
+          font-size: 12px;
+          cursor: pointer;
+          margin: 10px;
+          border-radius: 13px;
+          box-shadow: 4px 6px 11px 1px #aaa; }
+    .banner .banner-right .banner-right-bottom {
+      height: 351px; }
+      .banner .banner-right .banner-right-bottom .banner-news {
+        height: 14px;
+        font-size: 12px;
+        color: #333;
+        padding-top: 20px;
+        padding-left: 15px; }
+        .banner .banner-right .banner-right-bottom .banner-news a {
+          display: block;
+          float: left; }
+          .banner .banner-right .banner-right-bottom .banner-news a:nth-child(1) {
+            padding-right: 15px;
+            border-right: 1px solid #ccc; }
+          .banner .banner-right .banner-right-bottom .banner-news a:nth-child(2) {
+            padding-left: 15px; }
+          .banner .banner-right .banner-right-bottom .banner-news a.active {
+            color: #c30d23; }
+      .banner .banner-right .banner-right-bottom .banner-tab-body .banner-news-l {
+        height: 287px;
+        padding-top: 20px;
+        box-sizing: border-box;
+        font-size: 12px;
+        color: #4d4d4d;
+        position: relative; }
+        .banner .banner-right .banner-right-bottom .banner-tab-body .banner-news-l .news-list {
+          overflow: hidden;
+          height: 195px;
+          width: 210px; }
+          .banner .banner-right .banner-right-bottom .banner-tab-body .banner-news-l .news-list .item {
+            width: 210px;
+            font-size: 12px;
+            overflow: hidden;
+            padding: 0 15px 9px 15px;
+            box-sizing: border-box;
+            height: 25px;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+            .banner .banner-right .banner-right-bottom .banner-tab-body .banner-news-l .news-list .item a {
+              color: #333; }
+        .banner .banner-right .banner-right-bottom .banner-tab-body .banner-news-l .more {
+          position: absolute;
+          right: 14px;
+          bottom: 26px;
+          color: #333; }
+      .banner .banner-right .banner-right-bottom .banner-tab-body .banner-news-r {
+        height: 287px;
+        padding-top: 20px;
+        box-sizing: border-box;
+        font-size: 12px;
+        color: #4d4d4d;
+        position: relative;
+        display: none; }
+        .banner .banner-right .banner-right-bottom .banner-tab-body .banner-news-r .news-list {
+          overflow: hidden;
+          height: 195px;
+          width: 210px; }
+          .banner .banner-right .banner-right-bottom .banner-tab-body .banner-news-r .news-list .item {
+            width: 210px;
+            font-size: 12px;
+            overflow: hidden;
+            padding: 0 15px 9px 15px;
+            box-sizing: border-box;
+            height: 25px;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+            .banner .banner-right .banner-right-bottom .banner-tab-body .banner-news-r .news-list .item a {
+              color: #333; }
+        .banner .banner-right .banner-right-bottom .banner-tab-body .banner-news-r .more {
+          position: absolute;
+          right: 14px;
+          bottom: 26px;
+          color: #333; }
+
+/*# sourceMappingURL=index.css.map */

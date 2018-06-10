@@ -1,0 +1,204 @@
+@import "base.scss";
+.banner {
+  width: 100%;
+  height: 434px;
+  position: relative;
+  overflow: hidden;
+  margin:0 auto;
+  ul {
+    position: absolute;
+    li {
+      float: left;
+      width: 1349px;
+      position: relative;
+      min-width: 1224px;
+      height: 434px;
+      &:nth-child(1){
+        background: rgb(240, 31, 73);
+      }
+      &:nth-child(2){
+        background: rgb(168, 231, 206);
+      }
+      &:nth-child(3){
+        background: rgb(249, 248, 244);
+      }
+      &:nth-child(4){
+        background: rgb(182, 219, 201);
+      }
+      a{
+        height: 100%;
+        margin-left: -422px;
+        width: 824px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+    }
+  }
+  .direction a {
+    display: block;
+    width: 40px;
+    height: 80px;
+    position: absolute;
+    top: 45%;
+    color: #fff;
+    background: rgba(0, 0, 0, .2) url("../images/banner/ico-arrow-banner.png") no-repeat;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    &:nth-child(2) {
+      right: 290px;
+      background-position: -42px 0;
+    }
+    &:nth-child(1) {
+      left: 270px;
+      background-position: -2px 0;
+    }
+  }
+  .btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    a {
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      margin-left: 2px;
+      @include bd1($white);
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      &.active {
+        background-color: #fff;
+      }
+    }
+  }
+  .banner-right{
+    padding-top: 0;
+    background: #ebebeb;
+    height: 434px;
+    margin-left: 402px;
+    width: 210px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    .banner-right-top{
+      padding:10px 5px 0 5px;
+      a{
+        display: block;
+        float: left;
+        p{
+          z-index: 9;
+          width: 80px;
+          height: 26px;
+          line-height: 26px;
+          background-color: #e01028;
+          color: #fff;
+          text-align: center;
+          font-size: 12px;
+          cursor: pointer;
+          margin: 10px;
+          border-radius: 13px;
+          box-shadow: 4px 6px 11px 1px #aaa;
+        }
+      }
+    }
+    .banner-right-bottom{
+      height: 351px;
+      .banner-news{
+        height: 14px;
+        font-size: 12px;
+        color: #333;
+        padding-top: 20px;
+        padding-left: 15px;
+        a{
+          display: block;
+          float: left;
+          &:nth-child(1){
+            padding-right: 15px;
+            border-right:1px solid #ccc;
+          }
+          &:nth-child(2){
+            padding-left: 15px;
+          }
+          &.active{
+            color: #c30d23;
+          }
+        }
+      }
+      .banner-tab-body{
+        .banner-news-l{
+          height: 287px;
+          padding-top: 20px;
+          box-sizing: border-box;
+          font-size: 12px;
+          color: #4d4d4d;
+          position: relative;
+          .news-list{
+            overflow: hidden;
+            height: 195px;
+            width: 210px;
+            .item{
+              width: 210px;
+              font-size: 12px;
+              overflow: hidden;
+              padding: 0 15px 9px 15px;
+              box-sizing: border-box;
+              height: 25px;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              a{
+                color: #333;
+              }
+            }
+          }
+          .more{
+            position: absolute;
+            right: 14px;
+            bottom: 26px;
+            color: #333;
+          }
+        }
+        .banner-news-r{
+          height: 287px;
+          padding-top: 20px;
+          box-sizing: border-box;
+          font-size: 12px;
+          color: #4d4d4d;
+          position: relative;
+          display: none;
+          .news-list{
+            overflow: hidden;
+            height: 195px;
+            width: 210px;
+            .item{
+              width: 210px;
+              font-size: 12px;
+              overflow: hidden;
+              padding: 0 15px 9px 15px;
+              box-sizing: border-box;
+              height: 25px;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              a{
+                color: #333;
+              }
+            }
+          }
+          .more{
+            position: absolute;
+            right: 14px;
+            bottom: 26px;
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+}
