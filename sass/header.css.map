@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,CAAC;EACC,KAAK,EAAE,IAAI",
+"sources": ["../../../../%E5%89%8D%E9%94%8B%E5%AD%A6%E4%B9%A0/workspace/work/sass/header.scss"],
 "names": [],
 "file": "header.css"
 }
