@@ -91,4 +91,3 @@ $.extend(Banner.prototype,{
         this.aBtn.eq(this.iNow > this.lenght ? 0 : this.iNow).addClass('active').siblings().removeClass('active');
     }
 });
-new Banner();
